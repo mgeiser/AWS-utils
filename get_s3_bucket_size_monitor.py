@@ -3,8 +3,6 @@ import boto3
 import datetime
 
 
-"""new comment"""
-
 """
 S3 Standard Storage
 First 50 TB / Month	$0.023 per GB
@@ -16,6 +14,10 @@ S3 One Zone-Infrequent Access (S3 One Zone-IA) Storage
 All storage	$0.01 per GB
 Amazon Glacier Storage
 All storage	$0.004 per GB
+
+Only implementing a straight $0.023/Gb, the teiring costs 
+produces only a slight variation that doesn't affect the purpose of this utility; 
+to find big buckets an implement data maintenance on them
 
 """
 
