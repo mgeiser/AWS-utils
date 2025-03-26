@@ -43,7 +43,7 @@ now = datetime.datetime.now()
 
 # Credentials for Profiles
 # DO NOT COMMIT TO SOURCE CONTROL WITH ACCESS KEYS AND SECRET KEYS (DUH!)
-# TODO Externalize these to a yaml file that is NOT commited to git
+# TODO Externalize these to an external file that is NOT commited to git
 access_key_sandbox = ''
 secret_key_sandbox = ''
 
